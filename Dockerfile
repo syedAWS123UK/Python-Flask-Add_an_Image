@@ -4,4 +4,4 @@ COPY ./ /app
 WORKDIR /app
 RUN pip install flask
 ENTRYPOINT [ "python" ]
-CMD [ "run.py" ]
+CMD [ "new.py" ]
