@@ -21,8 +21,9 @@ def first():
 @app.route('/second')
 #INPUTS
 def second():
-    return rendeer_template("second.html")
+    return render_template("second.html")
 
 #MAIN
 if __name__ == '__main__':
-    app.run(debug = True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
+
