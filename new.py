@@ -3,7 +3,7 @@ from flask import Flask, render_template
 import os
 
 #INTERACTION
-app = Flas(__name__)
+app = Flask(__name__)
 
 picfolder = os.path.join('static')
 
